@@ -59,11 +59,11 @@ function ul_case($str, $case="default"){
 }
 
 $str = "hellO my frEnd aNd By bY";
-echo ul_case($str, UP)."<br>";
-echo ul_case($str, DOWN)."<br>";
+echo ul_case($str, "UP")."<br>";
+echo ul_case($str, "DOWN")."<br>";
 echo ul_case($str)."<br>";
 // передаем не верный аргумент
-echo ul_case($str,DS);
+echo ul_case($str,"DS");
 
 /*
 Задача 4 
